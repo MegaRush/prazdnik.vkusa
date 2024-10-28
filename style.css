@@ -1,0 +1,279 @@
+header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height:300px;
+    color: white;
+    font-size: 80px;
+    background-image: url("images/Header/food-feast_rem.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+} 
+
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 40px;
+    float: left;
+    color: white;
+}
+.nav a:hover{
+    background-color: rgb(18, 29, 182);
+    border-radius: 25px;
+    color: rgb(211, 234, 255);
+}
+body{
+    background-color: rgb(14, 14, 14);
+}
+main{
+    background-color: rgb(14, 14, 14);
+    font-size: 20px;
+    height: 500px;
+    display: flex;
+}
+.main1{
+    background-color: rgb(14, 14, 14);
+    font-size: 20px;
+    height: 500px;
+    display: flex;
+}
+.menu{
+    width: 99%;
+    height: 80px;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding-left: 20px;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+.eat{
+    width: 99%;
+    height: 80px;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding-left: 20px;
+    font-size: 80px;
+}
+
+.shape{
+    width: 33%;
+    height: 500px;
+    background-color: rgb(14, 14, 14);
+    font-size: 20;
+}
+
+.tab{
+    width: 90%;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: 5%;
+    color: white;
+    text-align: center; 
+    border: 3px solid rgb(75, 75, 75);
+    border-radius: 25px;
+}
+.tab:hover{
+    background-color: rgb(34, 34, 34);
+    border: 3px solid rgb(94, 94, 94);
+    cursor: pointer;
+}
+
+.main2{
+    background-color: rgb(14, 14, 14);;
+    font-size: 20px;
+    height: 500px;
+    display: flex;
+}
+
+.razd{
+    width: 99%;
+    height: 7px;
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+
+.line_hold{
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 25px;
+}
+.line{
+    width: 90%;
+    height: 5px;
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    margin-top: 100px;
+}
+.line_r{
+    width: 5%;
+    height: 5px;
+    background-color: rgb(14, 14, 14);
+}
+
+.imgs{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-size:85%;
+    margin-top: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.imgs1{
+    background-image: url("images/Pizzas/peper.webp");
+}
+.imgs2{
+    background-image: url("images/Pizzas/XXL_height (1).webp");
+}
+.imgs3{
+    background-image: url("images/Pizzas/e0f76157803c9c67b7563824613e10aa-1100x825.jpg");
+}
+.imgs4{
+    background-image: url("images/Pizzas/acaa85e39ae4cddb31bef45ee7924a2a.jpeg");
+}
+.imgs5{
+    background-color: rgb(0, 0, 0);
+    background-image: url("images/Pizzas/XXL_height (2).webp");
+}
+.imgs6{
+    background-image: url("images/Pizzas/i.webp");
+}
+.imgs7{
+    background-image: url("images/Pizzas/XXL_height.webp");
+}
+.imgs8{
+    background-image: url("images/Rolls/filad.jpg");
+}
+.imgs9{
+    background-image: url("images/Rolls/i.webp");
+}
+.imgs10{
+    background-image: url("images/Rolls/unagi.jpg");
+}
+.imgs11{
+    background-image: url("images/Rolls/filad_b.webp");
+}
+.imgs12{
+    background-image: url("images/Rolls/ebbi_maki.jpeg");
+}
+.imgs13{
+    background-image: url("images/Rolls/kalif.jpg");
+}
+.imgs14{
+    background-image: url("images/Supes/6804941541.jpg");
+}
+.imgs15{
+    background-image: url("images/Supes/Screenshot_2019-09-06_Доставка_вкусных_обедов_в_Брянске.jpg");
+}
+.imgs16{
+    background-image: url("images/Supes/6fec5cc9e411268125fedbe86a040ecc.jpg");
+}
+.imgs17{
+    background-image: url("images/Supes/586822423473.9753.webp");
+}
+.imgs18{
+    background-image: url("images/Supes/i.webp");
+}
+.imgs19{
+    background-image: url("images/Supes/i (2).webp");
+}
+.imgs20{
+    background-image: url("images/Supes/6bf10735aa0cff1450d81d76a10656e1.png");
+}
+.imgs21{
+    background-image: url("images/Supes/i (1).webp");
+}
+.imgs22{
+    background-image: url("images/breakfasts/4f5465d6822243abd93026cb92deb406.jpg");
+}
+.imgs23{
+    background-image: url("images/breakfasts/i.webp");
+}
+.imgs24{
+    background-image: url("images/breakfasts/1703120744_mykaleido.jpg");
+}
+.imgs25{
+    background-image: url("images/breakfasts/i (3).webp");
+}
+.imgs26{
+    background-image: url("images/breakfasts/zimGht67ni0.jpg");
+}
+.imgs27{
+    background-image: url("images/breakfasts/i (1).webp");
+}
+.imgs28{
+    background-image: url("images/breakfasts/i (4).webp");
+}
+.imgs29{
+    background-image: url("images/breakfasts/i (2).webp");
+}
+.imgs30{
+    background-image: url("images/Salats/__.jpg");
+}
+.imgs31{
+    background-image: url("images/Salats/00d267c3cf28f759f1f8bb0add35cc49.jpg");
+}
+.imgs32{
+    background-image: url("images/Salats/iStock-185796098.jpg");
+}
+.imgs33{
+    background-image: url("images/Salats/f3dd032212b0717d5c025bdcfaa094e8.jpg");
+}
+.imgs34{
+    background-image: url("images/Salats/i.webp");
+}
+
+footer{
+    height:100%;
+    width:100%;
+    background-color: black;
+    font-size: 15px;
+    color:white ; 
+    display: flex;
+}
+
+.f_left{
+    width: 15%;
+    float: left;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.f_right{
+    width: 85%;
+    float: right;
+    font-size: 30px;
+}
+
+.f_right img{
+    width: 100px;
+}
+
+.f_right ul{
+    list-style:none;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
